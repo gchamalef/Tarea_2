@@ -116,6 +116,7 @@ public class frm_ventana extends javax.swing.JFrame {
 
         lbl_letraC.setText("Letra central del texto:");
 
+        lbl_palabra1.setBackground(new java.awt.Color(255, 255, 255));
         lbl_palabra1.setText("Primera palabra...........:");
 
         lbl_palabraC.setText("Palabra central.............:");
@@ -142,6 +143,66 @@ public class frm_ventana extends javax.swing.JFrame {
 
         lbl_palabrasImpar.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lbl_palabrasImpar.setText("Palabras con cantidad de caracteres impar: ");
+
+        txt_longitud_txt.setEditable(false);
+        txt_longitud_txt.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_longitud_txt.setBorder(null);
+
+        txt_total_palabra.setEditable(false);
+        txt_total_palabra.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_total_palabra.setBorder(null);
+
+        txt_letra1.setEditable(false);
+        txt_letra1.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_letra1.setBorder(null);
+
+        txt_letraU.setEditable(false);
+        txt_letraU.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_letraU.setBorder(null);
+
+        txt_letraC.setEditable(false);
+        txt_letraC.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_letraC.setBorder(null);
+
+        txt_palabra1.setEditable(false);
+        txt_palabra1.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_palabra1.setBorder(null);
+
+        txt_palabraC.setEditable(false);
+        txt_palabraC.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_palabraC.setBorder(null);
+
+        txt_palabraU.setEditable(false);
+        txt_palabraU.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_palabraU.setBorder(null);
+
+        txt_repeticionesA.setEditable(false);
+        txt_repeticionesA.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_repeticionesA.setBorder(null);
+
+        txt_repeticionesE.setEditable(false);
+        txt_repeticionesE.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_repeticionesE.setBorder(null);
+
+        txt_repeticionesI.setEditable(false);
+        txt_repeticionesI.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_repeticionesI.setBorder(null);
+
+        txt_repeticionesO.setEditable(false);
+        txt_repeticionesO.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_repeticionesO.setBorder(null);
+
+        txt_repeticionesU.setEditable(false);
+        txt_repeticionesU.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_repeticionesU.setBorder(null);
+
+        txt_palabrasPar.setEditable(false);
+        txt_palabrasPar.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_palabrasPar.setBorder(null);
+
+        txt_palabrasImpar.setEditable(false);
+        txt_palabrasImpar.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        txt_palabrasImpar.setBorder(null);
 
         lbl_titulo2.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
         lbl_titulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -293,7 +354,7 @@ public class frm_ventana extends javax.swing.JFrame {
                 .addComponent(lbl_titulo2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(94, Short.MAX_VALUE))
         );
 
         mn_archivo.setText("Archivo");
