@@ -631,7 +631,13 @@ public class frm_ventana extends javax.swing.JFrame {
         int seleccion = jFileChooser.showSaveDialog(this);
         if(seleccion == JFileChooser.APPROVE_OPTION){
             File archivo = jFileChooser.getSelectedFile();
-            guardarTextoArchivo(archivo, jTextArea1.getText());
+            
+            String archivoExtension = archivo.getAbsolutePath();
+            if(!archivoExtension.toLowerCase().endsWith(".txt")){
+                archivoExtension += ".txt";
+            }
+            
+            guardarTextoArchivo(new File(archivoExtension), jTextArea1.getText());
         }
     }
     
